@@ -5,7 +5,7 @@ const dropdowni = document.querySelector("i");
 const btn = document.querySelector("form button");
 const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
-const mesg = document.querySelector(".msg");
+const msg = document.querySelector(".msg");
 
 for(let select of dropdowns) {
     for(currCode in countryList) {
